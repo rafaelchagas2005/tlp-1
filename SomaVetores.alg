@@ -1,7 +1,7 @@
 Algoritmo "somaVetores"
 // Disciplina  : [Técnicas e Lógica de Programação I]
 // Professor   : Rafael Carvalho Chagas
-// Descrição   : Escreva um algoritmo que leia 2 vetor de 10 posições de
+// Descrição   : Escreva um algoritmo que leia 2 vetores de 10 posições de
 //               números inteiros e, faça a soma dos elementos de mesmo índice,
 //               colocando o resultado em um terceiro vetor. Mostre o vetor
 //               resultante.
