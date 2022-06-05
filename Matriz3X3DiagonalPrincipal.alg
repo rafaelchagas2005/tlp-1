@@ -1,0 +1,38 @@
+algoritmo "Matriz3X3DiagonalPrincipal"
+// Disciplina  : [Técnicas e Lógica de Programação I]
+// Professor   : Rafael Carvalho Chagas
+// Descrição   : Ler uma matriz 3x3 real e imprimir a soma dos elementos da
+//               diagonal principal.
+// Autor(a)    : Rafael Carvalho Chagas
+// Data atual  : 22/05/2022
+var
+   matrizA: vetor[1..3, 1..3] de real
+   somaDiag1: real
+   i, j: inteiro
+inicio
+   para i de 1 ate 3 faca
+      para j de 1 ate 3 faca
+         escreva("Digite um número: [", i, ",", j, "] ")
+         leia(matrizA[i,j])
+      fimpara
+   fimpara
+
+   escreval("")
+
+   para i de 1 ate 3 faca
+      para j de 1 ate 3 faca
+         escreva(matrizA[i,j])
+      fimpara
+      escreval("")
+   fimpara
+
+   para i de 1 ate 3 faca
+      para j de 1 ate 3 faca
+         somaDiag1 <- (matrizA[1,1] + matrizA[2,2] + matrizA[3,3])
+      fimpara
+   fimpara
+   
+   escreval("")
+   
+   escreval("Soma da diagonal principal: ", somaDiag1)
+fimalgoritmo
